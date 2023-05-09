@@ -1,34 +1,32 @@
 package com.Laliev.javacore.CRUD.models;
 
-public class Skill {
+public class Specialty {
     private static Long nextId = 0L;
     private Long id;
-    private String skillName;
+    private String specialtyName;
     private Status status;
-
-    public Skill(){}
-    public Skill(String skillName){
+    public Specialty(){}
+    public Specialty(String specialtyName){
         this.id = nextId++;
-        this.skillName = skillName;
+        this.specialtyName = specialtyName;
         status = Status.ACTIVE;
     }
 
     @Override
     public String toString() {
-        return "Skill{" +
+        return "Specialty{" +
                 "id=" + id +
-                ", name='" + skillName + '\'' +
+                ", specName='" + specialtyName + '\'' +
                 ", status=" + status +
                 '}';
     }
 
-
-    public String getSkillName() {
-        return skillName;
+    public String getSpecialtyName() {
+        return specialtyName;
     }
 
-    public void setSkillName(String skillName) {
-        this.skillName = skillName;
+    public void setSpecialtyName(String specialtyName) {
+        this.specialtyName = specialtyName;
     }
 
     public Status getStatus() {
@@ -39,11 +37,11 @@ public class Skill {
         this.status = status;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public Long getId() {
         return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

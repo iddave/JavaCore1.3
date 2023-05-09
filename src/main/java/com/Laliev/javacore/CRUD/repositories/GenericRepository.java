@@ -10,6 +10,5 @@ public interface GenericRepository<T, ID> {
     T findById(ID id) throws IOException;
     List<T> findAll() throws IOException;
     T save(T entity) throws IOException;
-    void delete(T entity) throws IOException;
     void deleteById(ID id) throws IOException;
 }

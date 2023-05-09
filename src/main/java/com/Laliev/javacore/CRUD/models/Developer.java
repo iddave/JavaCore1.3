@@ -3,21 +3,34 @@ package com.Laliev.javacore.CRUD.models;
 import java.util.List;
 
 public class Developer {
+    private static Long nextId = 0L;
     private Long id;
     private String firstName;
     private String lastName;
     private Status status;
-    private Speciality speciality;
+    private Specialty specialty;
     private List<Skill> skills;
 
     public Developer(){ }
-    public Developer(Long id, String firstName, String lastName,Speciality speciality, List<Skill> skills){
-        this.id = id;
+    public Developer(String firstName, String lastName, Specialty specialty, List<Skill> skills){
+        this.id = nextId++;
         this.firstName = firstName;
         this.lastName = lastName;
         this.skills = skills;
-        this.speciality = speciality;
+        this.specialty = specialty;
         status = Status.ACTIVE;
+    }
+
+    @Override
+    public String toString() {
+        return "Developer{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", status=" + status +
+                ", skills=" + skills +
+                ", specialty=" + specialty +
+                '}';
     }
 
     public Long getId() {
@@ -60,11 +73,11 @@ public class Developer {
         this.status = status;
     }
 
-    public Speciality getSpeciality() {
-        return speciality;
+    public Specialty getSpecialty() {
+        return specialty;
     }
 
-    public void setSpeciality(Speciality speciality) {
-        this.speciality = speciality;
+    public void setSpecialty(Specialty specialty) {
+        this.specialty = specialty;
     }
 }

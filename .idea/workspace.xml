@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1b2ac78-43ae-4705-a105-6cdc3411601b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/controllers/SpecialtyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/controllers/DeveloperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/controllers/DeveloperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/controllers/SkillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/controllers/SkillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/controllers/SpecialityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/data/developers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/data/developers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/data/skills.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/data/specialties.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/data/specialties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/models/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/models/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/models/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/models/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/models/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/models/Specialty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/repositories/GenericRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/repositories/GenericRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/repositories/SkillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/repositories/SkillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/repositories/SpecialityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/repositories/SpecialityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/views/DeveloperView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/views/DeveloperView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/views/SkillView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/views/SkillView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/views/SpecialityView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/views/SpecialityView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,5 +83,16 @@
       <updated>1682952424450</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Laliev/javacore/CRUD/repositories/GsonSkillRepositoryImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
